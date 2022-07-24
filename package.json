@@ -1,8 +1,8 @@
 {
-	"name": "discordbot-template",
-	"version": "3.3.0",
-	"description": "A modified template based on discordjs.guide to create your own discord-js based bot!",
-	"funding": "https://ko-fi.com/namanvrati",
+	"name": "emerald-bot",
+	"version": "2.0.0",
+	"description": "A Discord bot built on the Flow blockchain that allows you to distribute roles, gate access to channels based on token holdings and more. Created by your best friends at Emerald City.",
+	"funding": "https://bot.ecdao.org/",
 	"types": "./typings.d.ts",
 	"main": "bot.js",
 	"scripts": {
@@ -10,35 +10,37 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/NamVr/DiscordBot-Template.git"
+		"url": "git+https://github.com/emerald-dao/emerald-bot.git"
 	},
 	"keywords": [
-		"discord-js"
+		"discord-js", "Flow"
 	],
 	"author": {
-		"name": "Naman Vrati",
-		"url": "https://github.com/NamVr",
-		"email": "info@namanvrati.cf"
+		"name": "Jacob Tucker",
+		"url": "https://github.com/jacob-tucker"
 	},
 	"contributors": [
 		{
-			"name": "Krish Garg",
-			"url": "https://github.com/KrishGarg"
-		},
-		{
-			"name": "Thomas Fournier",
-			"email": "thomas@artivain.com",
-			"url": "https://github.com/GoudronViande24"
+			"name": "BoiseITGuru",
+			"url": "https://github.com/BoiseITGuru"
 		}
 	],
-	"license": "Apache-2.0",
+	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/NamVr/DiscordBot-Template/issues"
+		"url": "https://github.com/emerald-dao/emerald-bot/issues"
 	},
-	"homepage": "https://github.com/NamVr/DiscordBot-Template#readme",
+	"homepage": "https://bot.ecdao.org/",
 	"dependencies": {
 		"@discordjs/rest": "^1.0.0",
 		"discord-api-types": "^0.36.2",
-		"discord.js": "^14.0.2"
+		"discord.js": "^14.0.2",
+		"@onflow/fcl": "^0.0.78",
+    	"@onflow/types": "^0.0.6",
+		"crypto": "^1.0.1",
+		"crypto-js": "^4.1.1",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"nodemon": "^2.0.15",
+		"node-schedule": "^2.1.0"
 	}
 }
